@@ -1,7 +1,9 @@
 :root {
     --base-color: #00E5EE;
     --element-color: #000000;
-    --reset-color: #FFFFFF;
+    --white-color: #FFFFFF;
+    --success-color: #31CC12;
+    --danger-color: #FF0000;
 }
 
 * {
@@ -86,12 +88,30 @@ button {
     max-width: 350px;
     height: 50px;
     font: bold 1.4rem sans-serif;
-    background: var(--element-color);
-    color: var(--base-color);
     outline: none;
     border-radius: 5px;
     cursor: pointer;
     margin-bottom: 10px;
+}
+
+#calculate {
+    background-color: var(--white-color);
+    color: var(--success-color);
+}
+
+#calculate:hover {
+    background-color: var(--success-color);
+    color: var(--white-color);
+}
+
+#clear {
+    background-color: var(--white-color);
+    color: var(--danger-color);
+}
+
+#clear:hover {
+    background-color: var(--danger-color);
+    color: var(--white-color);
 }
 
 .result {
