@@ -1,0 +1,66 @@
+:root{
+    --base-color: #12CAD1;
+    --success-color: #6BC76B;
+    --danger-color: #F60000;
+    --white-color: #FFF;
+    --gray-color1: #CCCCCC;
+    --gray-color2: #999999;
+    --dark-color1: #666666;
+}
+
+header, main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button{
+    width: 100px;
+    cursor: pointer;
+    border-width: thin;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.titlePage {
+    color: var(--base-color);
+}
+
+.lightContainer {
+    cursor: pointer;
+}
+
+#toggleButton {
+    background-color: var(--white-color);
+    color: var(--success-color);
+}
+
+#toggleButton:hover  {
+    background-color: var(--success-color);
+    color: var(--white-color);
+}
+
+#toggleButton:disabled {
+    background-color: var(--gray-color1); 
+    color: var(--dark-color1);
+    border-color: var(--gray-color2); 
+    cursor: not-allowed;
+    background-color: var(--gray-color1); 
+    color: var(--dark-color1);
+}
+
+#toggleButton:disabled:hover {
+    background-color: var(--gray-color1);
+    color: var(--dark-color1);
+}
+
+#cancel {
+    margin-top: 5px;
+    background-color: var(--white-color);
+    color: var(--danger-color);
+}
+
+#cancel:hover {
+    margin-top: 5px;
+    background-color: var(--danger-color);
+    color: var(--white-color);
+}
