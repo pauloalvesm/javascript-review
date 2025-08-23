@@ -1,0 +1,55 @@
+:root{
+    --success-color: #058605;
+    --danger-color: #F60000;
+    --white-color: #FFF;
+    --dark-color: #666666;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5vh;
+}
+
+#result {
+    font-size: 30px;
+}
+
+button {
+    width: 100px;
+	padding: 10px;
+	border: none;
+	cursor: pointer;
+    border: solid 2px var(--dark-color);
+    border-width: thin;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.btnOn{
+    background-color: var(--white-color);
+    color: var(--success-color);  
+}
+
+.btnOn:hover{
+    background-color: var(--success-color);
+    color: var(--white-color);
+}
+
+.btnOff{
+    background-color: var(--white-color);
+    color: var(--danger-color);
+}
+
+.btnOff:hover{
+    background-color: var(--danger-color);
+    color: var(--white-color);
+}
