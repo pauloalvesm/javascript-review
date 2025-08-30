@@ -10,6 +10,18 @@
 
 Repository with a list of web applications to review Javascript concepts.
 
+## 📕 Note
+
+- This repository may receive more projects in the future
+
+## 📌 Technical Decisions
+
+- I've defined a basic structure that is also focused on organization.
+
+- I've chosen to develop projects at an entry level.
+
+- In the development process, I've opted to apply cleaner and more readable code.
+
 ## 🚀 Technologies and Tools
 
 This project was developed using the following technologies:
@@ -18,6 +30,13 @@ This project was developed using the following technologies:
   - `HTML5`
   - `CSS`
   - `JavaScript`
+ 
+## 📓 Project List
+- [01-BMI-calculator](https://github.com/pauloalvesm/javascript-review/tree/master/src/01-BMI-calculator)
+- [02-toggle-light](https://github.com/pauloalvesm/javascript-review/tree/master/src/02-toggle-light)
+- [03-traffic-light](https://github.com/pauloalvesm/javascript-review/tree/master/src/03-traffic-light)
+- [04-CPF-validator](https://github.com/pauloalvesm/javascript-review/tree/master/src/04-CPF-validator)
+- [05-calculator](https://github.com/pauloalvesm/javascript-review/tree/master/src/05-calculator)
 
   ## 💾 How to Run Locally
 
